@@ -1,0 +1,4 @@
+delicious.cs.berkeley.edu
+nova.cs.berkeley.edu
+cory.cs.berkeley.edu
+barry.cs.berkeley.edu
