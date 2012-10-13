@@ -1,0 +1,8 @@
+This basic program allows you to enter servers in a text file and it will tell you if they are up and running or not.
+
+There are also options
+	- h Help
+	- w Search for a user on the listed servers and return the server that the user 
+		- user searching for
+		- username for server
+		- passowrd for server
