@@ -1,6 +1,10 @@
 #!/bin/bash
 
-servers=( delicious.cs.berkeley.edu barry.cs.berkeley.edu )
+servers=()
+
+while read line; do
+	servers+=($line)
+done < "servers.txt"
 
 for server in "${servers[@]}"; do
 	ping=`ping -c 2 $server`
